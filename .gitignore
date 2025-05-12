@@ -1,3 +1,178 @@
+# Network Configuration Parser .gitignore
+# Generated from combination of:
+# - GitHub's Python template (https://github.com/github/gitignore/blob/main/Python.gitignore)
+# - GitHub's Node template (https://github.com/github/gitignore/blob/main/Node.gitignore)
+# - GitHub's C++ template (https://github.com/github/gitignore/blob/main/C++.gitignore)
+# - Visual Studio Code template (https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore)
+# - Custom parser-specific patterns
+
+# Build outputs
+build/
+dist/
+out/
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Parser generators
+*.tab.c
+*.tab.h
+*.yy.c
+*.output
+parse.c
+parse.h
+lex.c
+lex.h
+
+# Language-specific
+__pycache__/
+*.py[cod]
+node_modules/
+.antlr/
+.idea/
+.vscode/
+*.class
+*.jar
+
+# Temporary files
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.log
+*.debug
+
+# Generated documentation
+docs/generated/
+
+# Parser-specific outputs
+*_configuration.csv
+*_visualization.html
+paloalto_parser_output/
+visualizations/
+parsed_configs/
+
+# Temporary config files
+*.conf.tmp
+*.xml.bak
+*.cfg.old
+
+# Log and output files
+parser.log
+parse_errors.txt
+config_diff.txt
+*.report
+
+# Script-specific
+.env
+config.ini
+settings.json
+
+# Test data
+test_configs/
+sample_data/
+mock_data/
+
+# Cisco Parser Outputs
+cisco_parser_output/
+*_router_config.csv
+*_switch_config.csv
+*_ios_config.csv
+*_nexus_config.csv
+*_asa_config.csv
+cisco_analysis_*.html
+network_topology.json
+
+# Cisco Backup Configs
+*.cfg.backup
+*.conf.archive
+running-config.*
+startup-config.*
+*_config_archive/
+
+# Cisco Parser Logs
+cisco_parse_errors.log
+migration_report.txt
+audit_*.log
+compliance_*.txt
+
+# Network Diagrams
+*_topology.dot
+*_diagram.svg
+*_network_map.png
+diagrams/generated/
+
+# Common Network Analysis
+*.pcap
+*.cap
+*.dump
+network_analysis/
+temp_configs/
+
+# OS generated files
+*.app
+.Spotlight-V100
+.Trashes
+._*
+.AppleDouble
+.LSOverride
+desktop.ini
+$RECYCLE.BIN/
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+.VolumeIcon.icns
+
+# IDE and Editor files
+*.sublime-workspace
+*.sublime-project
+*.komodoproject
+.komodotools/
+nbproject/
+*.iml
+.project
+.classpath
+.settings/
+.metadata/
+*.code-workspace
+
+# Dependencies and packages
+vendor/
+bower_components/
+jspm_packages/
+package-lock.json
+yarn.lock
+composer.lock
+pip-log.txt
+*.tgz
+*.tar.gz
+*.zip
+*.rar
+
+# Common backup files
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+*.temp
+*.[Bb]ak
+*.old
+*.[Oo]ld
+
+# Certificate and key files
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+*.priv
+
+
 # Prerequisites
 *.d
 
